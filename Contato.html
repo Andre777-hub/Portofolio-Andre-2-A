@@ -21,6 +21,10 @@
        justify-content: center;  
        align-items: center;       
     }
+        .Bloco-de-MSG{
+            display: flex;
+            justify-content: center;  
+        }
 
     </style>
 <body>
@@ -36,8 +40,11 @@
     <input style="text-align: center;" type="text" placeholder="E-mail" minlength="5" maxlength="40" required>
 </div>
 
-    <p style="text-align: center;"><b>Mensagem:</b></p>
-    <input style="text-align: center;"><textarea></textarea>
+    <div style="text-align: center;"><b>Mensagem:</b></p></div>
+
+    <div class="Bloco-de-MSG">
+        <textarea></textarea>
+    </div>
     
 </body>
 </html>
